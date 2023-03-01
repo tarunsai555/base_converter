@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>BASE CONVERTER</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href=":root{.css">
+</head>
+
+<body>
+  <header>
+    <span>Base Converter</span>
+    <button id="menuBtn" class="color-scheme">Menu</button>
+  </header>
+  <div id="navMenu">
+    <ul>
+      <li id="homePage">Home</li>
+      <li id="colorPicker">Color Picker</li>
+      <li>
+        <div>Mode:
+          <button id="colorSchemeBtn" class="color-scheme" onclick="changeScheme()"> Night Mode
+          </button>
+        </div>
+      </li>
+      <li id="moreApps">More Apps</li>
+      <li id="closeMenu">Close Menu</li>
+      <li id="quitApp">Quit App</li>
+    </ul>
+  </div>
+
+  <div id="container" class="container">
+    <div class="form">
+      <textarea name="screen" id="screen" readonly></textarea>
+
+      <label for="val_first_base" class="lb">Value to convert:</label>
+
+      <input type="text" id="val_first_base" class="input dark-mode" placeholder="Insert value in initial base">
+
+
+      <label for="firstBase" class="lb">Base to convert from</label>
+
+      <input type="text" id="firstBase" class="input dark-mode" placeholder="Insert initial base">
+
+
+      <label for="newBase" class="lb">Base to convert to:</label>
+      <input type="text" id="newBase" class="input dark-mode" placeholder="Insert new base">
+
+      <button id="submitBtn">CALCULATE</button>
+    </div>
+  </div>
+  <!-- Project -->
+  <script src="var currentColorScheme = localStorage.js"></script>
+  <script src="var currentColorScheme = localStorage.js"></script>
+</body>
+
+</html>
